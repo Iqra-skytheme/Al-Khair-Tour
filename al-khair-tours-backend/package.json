@@ -1,0 +1,27 @@
+{
+  "name": "al-khair-tours-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "make-admin": "node scripts/makeAdmin.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.3",
+    "@supabase/supabase-js": "^2.110.7",
+    "cloudinary": "^2.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "multer": "^2.2.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "supabase": "^2.109.1"
+  }
+}
